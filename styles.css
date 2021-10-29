@@ -3,30 +3,31 @@
 h1{
     font-family: 'Noto Serif Display', serif;
     color:#ffd6cc  !important;
-    font-size:700%;
+    font-size:400%;
     text-align: center;
-    margin-top: 5%;
-  
+    margin-top: 20%;
+    overflow-wrap: normal;
 }
 .subheading{
-  margin-top: -80px;
+  
   font-family: 'Noto Serif Display', serif;
   color:hsl(0, 0%, 16%)  !important;
-  font-size: 200%;
+  font-size: 175%;
   text-align: center;
   margin-bottom: 5%;
- 
+  overflow-wrap: normal;
 }
 p{
   position: absolute;
   right: 0;
-  margin-right: 20px;
+  margin-right: 2%;
+  margin-top: 1.31%;
   top:0;
   z-index:1;
   padding:0;
   font-family: 'Noto Serif Display', serif;
   color:hsl(0, 0%, 19%)  !important;
-  
+  overflow-wrap: normal;
 }
 
 a, a:hover, a:focus, a:active {
@@ -42,9 +43,9 @@ a:hover {
 .link {
   position: absolute;
   right: 1;
-  margin-top: 20px;
-  margin-left: 20px;
-  top: 1px;;
+  margin-top: 1.31%;
+  margin-left: 2%;
+  top:0;
   z-index:1;
   padding:0;
   font-family: 'Noto Serif Display', serif;
@@ -76,8 +77,8 @@ button {
      margin-bottom: 10%;
   }
   .showcase {
-    width : 50%;
-    height: 50%;
+    width : 90%;
+    height: 90%;
   }
   /* width */
 ::-webkit-scrollbar {
