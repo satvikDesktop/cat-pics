@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+
 h1{
     font-family: 'Noto Serif Display', serif;
     color:#ffd6cc  !important;
-    font-size:400%;
+    font-size:350%;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
     overflow-wrap: normal;
 }
 .subheading{
@@ -18,9 +18,10 @@ h1{
   overflow-wrap: normal;
 }
 p{
+  font-size: 80%;
   position: absolute;
   right: 0;
-  margin-right: 2%;
+  margin-right: 1%;
   margin-top: 1.31%;
   top:0;
   z-index:1;
@@ -41,10 +42,11 @@ a:hover {
 
 
 .link {
+  font-size: 80%;
   position: absolute;
   right: 1;
   margin-top: 1.31%;
-  margin-left: 2%;
+  margin-left: 1%;
   top:0;
   z-index:1;
   padding:0;
